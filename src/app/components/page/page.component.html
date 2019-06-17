@@ -1,0 +1,11 @@
+<div class="page">
+  <div class="page-title">
+    <h1>{{page?.title}}</h1>
+  </div>
+  <div class="page-content">
+    <!-- <markdown ngPreserveWhitespaces>
+      {{page.content}}
+    </markdown> -->
+    <div #content [innerHTML]="safeHtml" (click)="link($event)"></div>
+  </div>
+</div>

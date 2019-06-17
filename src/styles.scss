@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+$green: #53b56e;
+$dark-green: #2b3a35;
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.card {
+    border: 1px solid $dark-green;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}

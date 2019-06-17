@@ -1,0 +1,20 @@
+<!-- <div class="header">
+  Steady Wiki
+</div> -->
+<div class="page-list card">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Pages</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let page of pages">
+      <!-- <tr> -->
+        <td>
+          <a [routerLink]="['/', page._id]">{{page.title}}</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
